@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/$USER/Source/qtiplot_docker/QtiPlot.sh
+Icon=/home/$USER/Source/qtiplot_docker/icon.png
+Categories=Science
+Name=QtiPlot Dockerized

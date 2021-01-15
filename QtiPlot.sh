@@ -1,6 +1,6 @@
-#!/usr/bin/bash
+#!/bin/bash
 #Released under GPLv3, ¢ Filippo Falezza
-CONTAINER_NAME=amazing_khorana
+CONTAINER_NAME=interesting_shaw
 xhost +local:docker
 docker start $CONTAINER_NAME
 pid=$(docker inspect --format '{{.State.Pid}}' $CONTAINER_NAME)
